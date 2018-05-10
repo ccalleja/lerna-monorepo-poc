@@ -4,7 +4,4 @@ module.exports = {
         'packages/**/*.{js}',
         '!**/node_modules/**',
     ],
-    roots: [
-        'packages/',
-    ],
 };
