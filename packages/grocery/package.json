@@ -12,6 +12,6 @@
   "dependencies": {
     "apple": "^0.0.1",
     "banana": "^0.0.1",
-    "sillyname": "0.1.0"
+    "sillyname": "0.0.3"
   }
 }
