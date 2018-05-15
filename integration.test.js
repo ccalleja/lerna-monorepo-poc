@@ -1,5 +1,7 @@
 jest.unmock('package-a');
 jest.unmock('package-b');
+jest.unmock('package-lib-c');
+
 const log = jest.fn();
 console.log = log;
 const mainApp = require('./packages/main-app/');
