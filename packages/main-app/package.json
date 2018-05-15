@@ -1,6 +1,6 @@
 {
   "name": "main-app",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,7 @@
   "dependencies": {
     "package-a": "^0.0.4",
     "package-b": "^0.0.2",
-    "package-lib-c": "^0.0.1",
+    "package-lib-c": "^0.0.6",
     "sillyname": "0.1.0"
   }
 }
