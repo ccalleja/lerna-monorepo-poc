@@ -1,7 +1,7 @@
 ## NOTES
 
-Install lerna globally in order to run this project
 `npm i -g lerna`
+Install lerna globally in order to run this project
 
 Using jest from the root tests run and show coverage and log info.
 `npm run test`
@@ -27,7 +27,7 @@ Add a dependency to a package (if --scope specified) or to all packages
 Execute scripts found in package.json, skips the modules which do not contain this script
 
 `lerna publish --cd-version={part} --yes`
-Run publish using the patch version and answering yes to confirm the changes
+Run publish using the patch version and answering yes to confirm the changes. For more details on publish visit [here](https://github.com/lerna/lerna#publish)
 
 `lerna import {path-to-single-repo-module}`
 Import an older standalone module into the monorepo and keep the history
