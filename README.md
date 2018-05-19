@@ -26,8 +26,13 @@ Add a dependency to a package (if --scope specified) or to all packages
 `lerna run {command}`
 Execute scripts found in package.json, skips the modules which do not contain this script
 
-`lerna publish --cd-version={part} --yes`
+`lerna publish --cd-version={part} --yes --skip-npm`
 Run publish using the patch version and answering yes to confirm the changes. For more details on publish visit [here](https://github.com/lerna/lerna#publish)
 
 `lerna import {path-to-single-repo-module}`
 Import an older standalone module into the monorepo and keep the history
+
+To run tests in this poc i grouped the jest configurations at the root of the project and can run the tests as follows:
+`npm test`
+If modules have their own configuration already set up we can use lerna to run all *test* scripts inside each node module as follows
+`lerna run test`

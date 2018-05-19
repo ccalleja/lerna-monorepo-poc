@@ -1,5 +1,5 @@
 {
-  "name": "main-app",
+  "name": "@ccalleja/main-app",
   "version": "0.0.7",
   "description": "",
   "main": "index.js",
@@ -10,9 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "package-a": "^0.0.7",
-    "package-b": "^0.0.7",
-    "package-lib-c": "^0.0.7",
+    "@ccalleja/package-a": "^0.0.7",
+    "@ccalleja/package-b": "^0.0.7",
+    "@ccalleja/package-lib-c": "^0.0.7",
     "sillyname": "0.1.0"
   }
 }
